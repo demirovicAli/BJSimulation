@@ -1,9 +1,60 @@
 .meni {
 
-	background-color: #33cc33;
-	height: 300px;
-	width: 600px;
-	overflow:auto;
-	word-wrap: break-word;
+    background-color: #33cc33;
+    height: 200px;
+    width: 600px;
+    overflow: auto;
+    word-wrap: break-word;
+
+}
+
+#igra {
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    overflow: auto;
+    background-color: rgba(50, 115, 220, 0.3);
+
+}
+
+
+#diler {
+    background-color: #05ffb0;
+    height: 90px;
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 70px;
+
+}
+
+#igrac {
+    background-color: #05ffb0;
+    height: 90px;
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+
+#player {
+    display: block;
+
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+    border: 1px solid blue;
+
+}
+
+#dealer {
+    display: block;
+
+
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+    border: 1px solid blue;
 
 }
