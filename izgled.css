@@ -12,8 +12,11 @@
     margin: auto;
     height: 300px;
     width: 500px;
-    overflow: auto;
+   overflow: auto;
     background-color: rgba(50, 115, 220, 0.3);
+        display: flex;
+        font-weight: bold;
+
 
 }
 
@@ -22,8 +25,7 @@
     background-color: #05ffb0;
     height: 90px;
     width: 100px;
-    margin-left: 200px;
-    margin-top: 70px;
+    margin: auto;
 
 }
 
@@ -31,30 +33,45 @@
     background-color: #05ffb0;
     height: 90px;
     width: 100px;
-    margin-left: 200px;
-    margin-top: 10px;
+margin:auto;
+ 
+
 }
 
 
 #player {
     display: block;
-
-    margin-top: 20px;
+        margin-top: 2px;
     height: 50px;
     width: 50px;
-    margin-left: 25px;
     border: 1px solid blue;
 
 }
 
 #dealer {
     display: block;
-
-
-    margin-top: 20px;
     height: 50px;
     width: 50px;
-    margin-left: 25px;
+    border: 1px solid blue;
+
+}
+
+.playerValue {
+	display: inline-block;
+		margin: auto;
+
+background-color: rgb(50, 115, 220);
+	   height: 50px;
+    width: 50px;
+}
+
+.cardvalue
+
+{
+	display: inline-block;
+	margin: auto;
+    height: 50px;
+    width: 50px;
     border: 1px solid blue;
 
 }
